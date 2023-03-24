@@ -10,10 +10,10 @@ int main(){
 cin >> a >> b >> c;
 
  //Qui va scrittoil codice per eseguire i calcoli richiesti
-    triangolo = a*b;
+    triangolo = ((a*b)/2);
     quadrato= a*a;
     rettangolo = a*b;
-    trapezio = (a+b)/c;
+    trapezio = ((a+b)/c);
 
     cout << "triangolo = " << triangolo ;
     cout << ", quadrato = " << quadrato ;
