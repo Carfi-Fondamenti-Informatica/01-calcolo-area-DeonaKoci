@@ -13,7 +13,7 @@ cin >> a >> b >> c;
     triangolo = ((a*b)/2);
     quadrato= a*a;
     rettangolo = a*b;
-    trapezio = ((a+b)/c);
+    trapezio = (((a+b)*c)/2);
 
     cout << "triangolo = " << triangolo ;
     cout << ", quadrato = " << quadrato ;
