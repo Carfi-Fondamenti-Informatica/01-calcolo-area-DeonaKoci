@@ -5,7 +5,7 @@ int main(){
 //Qui vanno definite le variabili
  float a=0, b=0, c=0 ;
     float triangolo=0, quadrato=0, rettangolo=0, trapezio=0;
-    cout << "inserire tre valori reali\n";
+    cout << "inserire tre numeri reali\n";
 
 cin >> a >> b >> c;
 
@@ -15,10 +15,10 @@ cin >> a >> b >> c;
     rettangolo = a*b;
     trapezio = (((a+b)*c)/2);
 
-    cout << "triangolo = " << triangolo ;
-    cout << ", quadrato = " << quadrato ;
-    cout << ", rettangolo = " << rettangolo ;
-    cout << ", trapezio = " << trapezio ;
+    cout << "triangolo = " << triangolo << endl;
+    cout << "quadrato = " << quadrato << endl;
+    cout << "rettangolo = " << rettangolo << endl;
+    cout << "trapezio = " << trapezio << endl;
 
     return 0;
 }
