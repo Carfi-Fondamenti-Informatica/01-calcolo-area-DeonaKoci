@@ -2,23 +2,22 @@
 using namespace std;
 
 int main(){
-//Qui vanno definite le variabili
+
  float a=0, b=0, c=0 ;
     float triangolo=0, quadrato=0, rettangolo=0, trapezio=0;
     cout << "inserire tre numeri reali\n";
 
-cin >> a >> b >> c;
+    cin >> a >> b >> c;
 
- //Qui va scrittoil codice per eseguire i calcoli richiesti
     triangolo = ((a*b)/2);
     quadrato= a*a;
     rettangolo = a*b;
     trapezio = (((a+b)*c)/2);
 
-    cout << "triangolo = " << triangolo << endl;
-    cout << "quadrato = " << quadrato << endl;
-    cout << "rettangolo = " << rettangolo << endl;
-    cout << "trapezio = " << trapezio << endl;
+    cout << "triangolo = " << endl;
+    cout << "quadrato = " << endl;
+    cout << "rettangolo = "  endl;
+    cout << "trapezio = " << endl;
 
     return 0;
 }
