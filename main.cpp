@@ -4,20 +4,20 @@ using namespace std;
 int main(){
 
  float a=0, b=0, c=0 ;
-    float triangolo=0, quadrato=0, rettangolo=0, trapezio=0;
-    cout << "inserire tre numeri reali\n";
+    float Triangolo=0, Quadrato=0, Rettangolo=0, Trapezio=0;
+    cout << "inserisci tre numeri reali\n";
 
     cin >> a >> b >> c;
 
-    triangolo = ((a*b)/2);
-    quadrato= a*a;
-    rettangolo = a*b;
-    trapezio = (((a+b)*c)/2);
+    Triangolo = ((a*b)/2);
+    Quadrato= a*a;
+    Rettangolo = a*b;
+    Trapezio = (((a+b)*c)/2);
 
-    cout << "triangolo = " << endl;
-    cout << "quadrato = " << endl;
-    cout << "rettangolo = "  endl;
-    cout << "trapezio = " << endl;
+    cout << Triangolo << endl;
+    cout << Quadrato  << endl;
+    cout << Rettangolo << endl;
+    cout << Trapezio  << endl;
 
     return 0;
 }
